@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+
+  </head>
+  <body>
+
+    <p id = "var"></p>
+    <p id = "var2"></p>
+    <p id = "var3"></p>
+  <div class=row>
+    <p id = "array"></p>
+    <p id = "array1"></p>
+    <p id = "array2"></p>
+  </div>
+    <p id = "object"></p>
+
+
+  </body>
+</html>
+
+<script type="text/javascript">
+
+var favorite_animal = "Cat";
+var favorite_number = 4;
+
+let name = "Greg";
+let surname = "Jackson";
+let age = 47;
+let highest_test_percentage = 75.7;
+const address = "12 Hall Rd, Seapoint";
+const min_pass_percentage = 80;
+let games = ["Assassin's Creed","Monkey Island","Full Throttle"];
+
+
+let car = {
+    color: "Red  ",
+    model:" 3 Series ",
+    name:" BMW ",
+    topspeed:" 260km",
+};
+
+document.getElementById("var").innerHTML = name;
+document.getElementById("var2").innerHTML = surname;
+document.getElementById("var3").innerHTML = age;
+document.getElementById("array").innerHTML = games[0]
+document.getElementById("array1").innerHTML = games[1]
+document.getElementById("array2").innerHTML = games[2]
+document.getElementById("object").innerHTML = car.color+car.model +car.name+car.topspeed;
+
+
+
+</script>

@@ -1,0 +1,33 @@
+#var{color:red;
+     font-size: 20px;
+     font-family: "Michroma";}
+
+#var2{color:blue;
+      font-size: 20px;
+      font-family: "Michroma";}
+
+#var3{color:green;
+      font-size: 20px;
+      font-family: "Michroma";}
+
+#array{color:#a842ff;
+       font-size: 20px;
+       font-family: "Michroma";
+       float: left;
+       margin-right: 20px;}
+
+#array1{color:#a842ff;
+        font-size: 20px;
+        font-family: "Michroma";
+        float: left;
+        margin-right: 20px;}
+
+#array2{color:#a842ff;
+       font-size: 20px;
+       font-family: "Michroma";
+       float: left;}
+
+#object{color:#00d8ff;
+        font-size: 20px;
+        font-family: "Michroma";
+        clear: both;}
